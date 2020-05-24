@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_image_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:visibility="visible">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toast_bg"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center">
+
+   <!-- <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        app:theme="@style/Overlay_Theme_white"
+        app:mpb_progressStyle="circular"/>-->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:visibility="visible"
+        app:theme="@style/Overlay_Theme_white"
+        />
+    <TextView
+        android:id="@+id/txt_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/progressBar"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="It’s taking longer to upload your profile picture. Please be patient. \n\nTap anywhere on the screen to cancel."
+        android:textColor="@android:color/white" />
+</RelativeLayout>
+</RelativeLayout>

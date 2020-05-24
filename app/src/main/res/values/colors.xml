@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--  <color name="colorPrimary">#4CAF50</color>
+      <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="primary_light">#C8E6C9</color>
+    <color name="primary_light700">#009688</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="color_d">#43d789</color>
+    <color name="colorPrimaryLight">#07d3cc</color>
+    <color name="tomato">#ff6347</color>
+    <color name="colorRed">#FFFF404A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightgay">#EEEEEE</color>
+    <color name="edithighlightcolor">#d3ecfc</color>
+    <color name="black">#000000</color>
+    <color name="toast_bg">#AF3737</color>
+    <color name="overlay_color">#99000000</color>
+    <color name="whiteoff">#f3f3f3</color>
+    <color name="colorBlue">#0452c7</color>
+    <color name="color_pink">#a5036e</color>
+
+    <color name="header_orange">#f5a414</color>
+    <color name="menu_orange">#f7b61d</color>
+    <color name="menu_blue">#1f9bf2</color>
+    <color name="menu_red">#fc4635</color>
+    <color name="menu_green">#96c120</color>
+    <color name="menu_pink">#d82d9f</color>
+    <color name="menu_gray">#606060</color>
+    <color name="menu_light_green">#19d6a4</color>
+    <color name="menu_red_dark">#ec1940</color>
+    <color name="menu_purple">#ae2df8</color>
+
+    <color name="secondary_color">#36bcb0</color>
+    <color name="tertiary_color">#e3e3e3</color>
+    <color name="text_color">#9B9B9B</color>
+    <!-- scanner color-->
+    <color name="actionbar_opacity">#33000000</color>
+</resources>
